@@ -1,0 +1,120 @@
+INDEX.HTML
+TYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Meteoro - Conteúdo para a Família</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TV Meteoro</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="reportagens.html">Reportagens</a>
+            <a href="#cotacao">Solicitar Cotação</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Conteúdo que aproxima a família</h2>
+        <p>Programas, entrevistas e histórias para todos os públicos.</p>
+    </section>
+
+    <section class="patrocinador">
+        <h3>Patrocinador Oficial</h3>
+        <p>Conheça a <strong>SolLar Energia</strong>, empresa que está ajudando a TV Meteoro a economizar com energia solar, garantindo mais recursos para produzir conteúdos de qualidade para você.</p>
+        <a href="#cotacao" class="btn">Quero minha cotação</a>
+    </section>
+
+    <section id="cotacao" class="cotacao">
+        <h3>Solicite sua Cotação de Energia Solar</h3>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <input type="tel" placeholder="Seu telefone" required>
+            <textarea placeholder="Descreva sua necessidade"></textarea>
+            <button type="submit">Enviar Solicitação</button>
+        </form>
+    </section>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportagens - TV Meteoro</title>
+    <link rel="stylesheet" href="style.css">
+STAYLE CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #ff6600;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.patrocinador, .cotacao, .reportagens {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn, button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
